@@ -1,7 +1,1 @@
-/*===========================
-    01. Common CSS
-===========================*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Space+Mono:400,700&display=swap');
-@import './animate.css';
-@import './lineicons.css';
-@import './style.css';
+@import 'style.css';
