@@ -112,7 +112,7 @@
 
 		<script>
 			function sendMailto(email) {
-				const body = `Hello Agung,
+				const body = `Hello,
                 `;
 
 				// Membuka aplikasi email dengan mailto
