@@ -6,7 +6,7 @@
 		<meta name="viewport"
 			content="width=device-width, initial-scale=1">
 
-		<title>Laravel</title>
+		<title>Coming Soon</title>
 
 		<!-- Fonts -->
 		<link href="https://fonts.bunny.net"
@@ -15,7 +15,7 @@
 			rel="stylesheet" />
 
 		<!-- Styles -->
-		@vite(['resources/css/app.css', 'resources/js/app.js'])
+		@vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 	</head>
 
@@ -28,8 +28,8 @@
 						<div class="col-md-4">
 							<a class="logo"
 								href="#">
-								<img src="{{ Vite::asset('resources/img/logo.png') }}"
-									alt="" /></a>
+								<img src="{{ Vite::asset('resources/images/logo.png') }}"
+									alt="Logo"></a>
 						</div>
 						<div class="col-md-8">
 							<div class="header-right text-right">
@@ -104,13 +104,11 @@
 		<!-- ========================= main end ========================= -->
 
 		<!-- ========================= JS here ========================= -->
-		<script src="{{ Vite::asset('resources/js/vendor/modernizr-3.5.0.min.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/vendor/jquery-3.5.1.min.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/popper.min.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/bootstrap-4.5.0.min.js') }}"></script>
+		<script src="{{ asset('vendor/jquery-3.5.1.min.js') }}"></script>
+		<script src="{{ asset('vendor/modernizr-3.5.0.min.js') }}"></script>
+		<script src="{{ asset('js/wow.min.js') }}"></script>
 		<script src="{{ Vite::asset('resources/js/countdown.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/wow.min.js') }}"></script>
-		{{-- <script src="{{ Vite::asset('resources/js/main.js') }}"></script> --}}
+		<script src="{{ Vite::asset('resources/js/main.js') }}"></script>
 
 		<script>
 			function sendMailto(email) {
