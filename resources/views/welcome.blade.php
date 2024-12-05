@@ -17,6 +17,10 @@
 		<!-- Styles -->
 		@vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
+		{{-- <link rel="stylesheet" href="{{ Vite:: }}/css/lineicons.css" />
+    <link rel="stylesheet" href="{{ Vite:: }}/css/animate.css" />
+    <link rel="stylesheet" href="{{ Vite:: }}/css/style.css" /> --}}
+
 	</head>
 
 	<body>
@@ -104,9 +108,9 @@
 		<!-- ========================= main end ========================= -->
 
 		<!-- ========================= JS here ========================= -->
-		<script src="{{ asset('vendor/jquery-3.5.1.min.js') }}"></script>
-		<script src="{{ asset('vendor/modernizr-3.5.0.min.js') }}"></script>
-		<script src="{{ asset('js/wow.min.js') }}"></script>
+		<script src="{{ Vite::asset('resources/js/vendor/jquery-3.5.1.min.js') }}"></script>
+		<script src="{{ Vite::asset('resources/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+		<script src="{{ Vite::asset('resources/js/wow.min.js') }}"></script>
 		<script src="{{ Vite::asset('resources/js/countdown.js') }}"></script>
 		<script src="{{ Vite::asset('resources/js/main.js') }}"></script>
 
