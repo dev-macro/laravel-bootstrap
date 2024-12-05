@@ -112,11 +112,11 @@
 
 		<script>
 			function sendMailto(email) {
-				const body = `Hello there!,
+				const body = `Hello Agung,
                 `;
 
 				// Membuka aplikasi email dengan mailto
-				const mailtoLink = `mailto:${email}?subject=Contact Form Submission&body=${encodeURIComponent(
+				const mailtoLink = `mailto:${email}?subject=Hello Agung!&body=${encodeURIComponent(
           body
         )}`;
 				window.location.href = mailtoLink;
