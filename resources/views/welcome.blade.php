@@ -108,9 +108,9 @@
 		<!-- ========================= main end ========================= -->
 
 		<!-- ========================= JS here ========================= -->
-		<script src="{{ Vite::asset('resources/js/jquery-3.5.1.min.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/modernizr-3.5.0.min.js') }}"></script>
-		<script src="{{ Vite::asset('resources/js/wow.min.js') }}"></script>
+		<script src="{{ asset('/js/jquery-3.5.1.min.js') }}"></script>
+		<script src="{{ asset('/js/modernizr-3.5.0.min.js') }}"></script>
+		<script src="{{ asset('/js/wow.min.js') }}"></script>
 		<script src="{{ Vite::asset('resources/js/countdown.js') }}"></script>
 		<script src="{{ Vite::asset('resources/js/main.js') }}"></script>
 
